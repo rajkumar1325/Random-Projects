@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Galery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    <div class="header">
+        <h1>Recipe Explorer</h1>
+        <p>Delicious bites, joyful nights! Savor the flavor, cherish the moment.</p>
+    </div>
+    
+    <div class="container">
+        <div class="search-container">
+            <input type="text" 
+                   id="searchInput" 
+                   class="search-input" 
+                   placeholder="Enter an ingredient (e.g., chicken, beef, potato)">
+            <button onclick="searchRecipes()" class="search-button">Search Recipes</button>
+        </div>
+
+        <div id="resultsContainer" class="food-grid">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    
+    
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 10px; background-color: #f1f1f1;">
+        &copy; <span id="year"></span> Food Explorer. All Rights Reserved. 
+        <br>
+        <p>Developed by <strong><a href="https://github.com/rajkumar1325">Raj Kumar</a></strong> </p>
+        
+    </footer>
+    
+</body>     
+
+</html>
